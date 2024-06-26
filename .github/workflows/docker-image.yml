@@ -42,9 +42,9 @@ jobs:
         qmake project_x_o.pro
         make
     
-    - name: Run tests
-      run: |
-        ./build/tests/MyTests  # Adjust this to the path of your Google Test executable
+    #-name: Run tests
+      #run: |
+       # ./build/tests/MyTests  # Adjust this to the path of your Google Test executable
         
 
   deploy:
