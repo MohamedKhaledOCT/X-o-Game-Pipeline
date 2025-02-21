@@ -24,4 +24,4 @@ COPY . .
 RUN qmake && make
 
 
-CMD ["./path/to/your/test_executable"]  # عدل هذا المسار ليتناسب مع مسار ملف الاختبار في مشروعك
+CMD ["./path/to/your/test_executable"] 
