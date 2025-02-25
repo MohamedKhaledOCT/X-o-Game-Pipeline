@@ -22,6 +22,7 @@ COPY . .
 
 
 RUN qmake && make
+# end
 
 
 CMD ["./path/to/your/test_executable"] 
